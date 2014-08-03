@@ -8,7 +8,12 @@
 
 #import <Cocoa/Cocoa.h>
 
+
 @interface AppDelegate : NSObject <NSApplicationDelegate>
+
+@property (weak) IBOutlet NSTextField *contentTextField;
+
+@property (weak) IBOutlet NSImageView *qrImageView;
 
 @property (assign) IBOutlet NSWindow *window;
 
